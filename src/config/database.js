@@ -1,18 +1,6 @@
 const sqlite = require("sqlite3").verbose();
 const DB_SOURCE = "src/config/database/database.sqlite";
 
-/**
- * id
- * first_name
- * last_name
- * phone
- * email
- * tipo de telefone
- * endereco
- * github
- * linkedin
- * pix
- */
 const CONTACTS = `
   CREATE TABLE IF NOT EXISTS contatos(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
