@@ -1,6 +1,6 @@
-const database = require("../config/database");
+const database = require("../../config/database/database");
 
-const ContatoDAO = require("../DAO/ContatoDAO");
+const ContatoDAO = require("../../config/DAO/ContatoDAO");
 const { request } = require("express");
 const contatoDAO = new ContatoDAO(database);
 
